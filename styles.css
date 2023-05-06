@@ -1,0 +1,109 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #ffee3564;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #ffee3564;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #ffee3564;    
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #ffee3564;
+
+}
+
+body {
+ width:auto;
+ height: 100vh;
+ margin: 0;
+ background: linear-gradient(90deg,#063716e9, #085a27f8, #02372195),url(https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center center fixed;
+ background-size: cover;
+ color: #b1c27c; 
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 16px;  
+}
+
+h1, .p-head {
+ display: flex;
+ justify-content: center;
+ align-items:flex-start;
+ top: 0;
+ margin: 8px auto;
+}
+
+.header {
+ width: 100%;
+ position: fixed;
+ background-color: #033a20;
+}
+
+form {
+ width: 50vw;
+ margin: 0 auto;
+ padding: 95px 0 0 0;
+}
+
+fieldset {
+ border: none;
+ padding: 0.9rem 0;
+ border-bottom: 1px solid #054b0c;
+}
+
+.form-group:last-of-type {
+ border-bottom: none;  
+}
+
+label {
+ display: block;
+ margin: 0.5rem 0;
+}
+
+input, select {
+ width: 100%;
+ height: 2em;
+ background-color: #0000006a;
+ border: none;
+ color:    #f1de0ec9;
+
+}
+
+legend {
+  padding: 1em 0;
+}
+
+textarea {
+ width: 100%;
+ margin: -0.5rem 0;
+ background-color: #020112;
+ border: none;
+ color:    #ffee3564;
+
+}
+
+.input-radio, .input-checkbox {
+ width: unset;
+ margin: 0 0.5em 0 0;
+ vertical-align: middle;
+}
+
+.submit-button {
+ display: block;
+ width: 60%;
+ margin: 2em auto;
+ height: 2em;
+ color: #066b10;
+ font-size: 1.1rem;
+ background: linear-gradient(90deg,#05185889, #00000075, #000000);
+ border: none;
+ min-width: 300px;
+}
+
+footer {
+ text-align: center;
+ margin: 3em 0 0 0;
+ padding: 0 0 10px 0;
+}
+
+a:visited {
+  color: #07360c;
+}
